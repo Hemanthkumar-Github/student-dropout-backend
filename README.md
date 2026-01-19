@@ -32,5 +32,5 @@ The backend is built using **FastAPI** and serves a trained **Random Forest mode
   - Dropout Risk (0 = No Dropout, 1 = Dropout)
   - Dropout Probability (%)
 
-The trained model is stored as:
+The trained model is stored as: dropout_model.pkl
 
