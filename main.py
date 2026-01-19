@@ -6,8 +6,8 @@ from database import cursor, conn
 
 
 
-
 app = FastAPI()
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],   # allow frontend
